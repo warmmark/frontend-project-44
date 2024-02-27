@@ -1,0 +1,15 @@
+{
+  "name": "brain-games",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/warmmark/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/warmmark/frontend-project-44/actions)",
+  "main": "bin/brain-games.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "warmmark",
+  "license": "ISC",
+  "type": "module"
+}
