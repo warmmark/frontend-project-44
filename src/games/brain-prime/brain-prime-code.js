@@ -1,4 +1,4 @@
-import { gameLogic, randomNum } from './index.js';
+import { gameLogic, randomNum } from '../index.js';
 
 function askIfPrime(num = randomNum()) {
   console.log(`Question: ${num}`);
