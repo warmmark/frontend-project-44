@@ -15,9 +15,7 @@ export function randomOperand() {
   return randomNum(1, 4);
 }
 
-export function gameLogic(correctansw) {
-  const userName = greeting();
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
+export function gameLogic(correctansw, userName) {
   let correct = 0;
   while (correct < 3) {
     const answer = readlineSync.question('Your answer: ');
