@@ -1,10 +1,8 @@
 import readlineSync from 'readline-sync';
+import greeting from './index.js';
 
 export default function isEven() {
-  console.log('Welcome to the Brain Games!');
-  const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${userName}!`);
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
+  const userName = greeting();
   let correct = 0;
   while (correct < 3) {
     const random = Math.floor(Math.random() * (100 - 1)) + 1;
