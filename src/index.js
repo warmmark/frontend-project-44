@@ -7,6 +7,6 @@ export default function greeting() {
   return userName;
 }
 
-export function randomNum() {
-  return Math.floor(Math.random() * (100 - 1)) + 1;
+export function randomNum(min = 1, max = 100) {
+  return Math.floor(Math.random() * (max - min)) + min;
 }
