@@ -1,4 +1,4 @@
-import { gameLogic, randomNum } from '../index.js';
+import { gameLogic, randomNum } from './index.js';
 
 function generateProgression() {
   const lengthOfProgression = randomNum(5, 10);

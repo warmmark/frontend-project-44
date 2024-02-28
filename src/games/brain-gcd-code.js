@@ -1,4 +1,4 @@
-import { gameLogic, randomNum } from '../index.js';
+import { gameLogic, randomNum } from './index.js';
 
 function askGCD(num1 = randomNum(), num2 = randomNum()) {
   console.log(`Question: ${num1} ${num2}`);

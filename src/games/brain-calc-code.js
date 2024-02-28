@@ -1,4 +1,4 @@
-import { gameLogic, randomNum, randomOperand } from '../index.js';
+import { gameLogic, randomNum, randomOperand } from './index.js';
 
 function askExpression() {
   const num1 = randomNum();
