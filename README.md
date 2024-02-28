@@ -3,3 +3,6 @@
 
 ### Maintainability:
 [![Maintainability](https://api.codeclimate.com/v1/badges/7a7f169d4f50d5d0b608/maintainability)](https://codeclimate.com/github/warmmark/frontend-project-44/maintainability)
+
+### Проверка на чётность
+[![asciicast](https://asciinema.org/a/qPD4SX2E83TpP4UdZDpJ6a2sS.svg)](https://asciinema.org/a/qPD4SX2E83TpP4UdZDpJ6a2sS)
