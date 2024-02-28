@@ -10,3 +10,7 @@ export default function greeting() {
 export function randomNum(min = 1, max = 100) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
+
+export function randomOperand() {
+  return randomNum(1, 4);
+}

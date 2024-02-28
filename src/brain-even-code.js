@@ -15,6 +15,7 @@ function askAndAnswer() {
 
 export default function isEven() {
   const userName = greeting();
+  console.log('Answer "yes" if the number is even, otherwise answer "no".');
   let correct = 0;
   while (correct < 3) {
     const correctansw = askAndAnswer();
