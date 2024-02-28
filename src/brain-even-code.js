@@ -14,6 +14,5 @@ function askIfEven() {
 
 export default function isEven() {
   const sentence = 'Answer "yes" if the number is even, otherwise answer "no".';
-  const correctansw = askIfEven();
-  gameLogic(correctansw, sentence);
+  gameLogic(askIfEven, sentence);
 }

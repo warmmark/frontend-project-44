@@ -15,11 +15,12 @@ export function randomOperand() {
   return randomNum(1, 4);
 }
 
-export function gameLogic(correctansw, sentence) {
+export function gameLogic(askFunction, sentence) {
   const userName = greeting();
   console.log(sentence);
   let correct = 0;
   while (correct < 3) {
+    const correctansw = askFunction();
     const answer = readlineSync.question('Your answer: ');
     if (answer === correctansw) {
       console.log('Correct!');

@@ -19,6 +19,5 @@ function askExpression() {
 
 export default function calc() {
   const sentence = 'What is the result of the expression?';
-  const correctansw = askExpression();
-  gameLogic(correctansw, sentence);
+  gameLogic(askExpression, sentence);
 }
