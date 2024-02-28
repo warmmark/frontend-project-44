@@ -15,3 +15,6 @@
 
 ### Арифметическая прогрессия
 [![asciicast](https://asciinema.org/a/WhMN58uuRAeqaZlAy2SUo5ipS.svg)](https://asciinema.org/a/WhMN58uuRAeqaZlAy2SUo5ipS)
+
+### Простое число
+[![asciicast](https://asciinema.org/a/bmLQlWjDrdtrAFzY57UX3hZLB.svg)](https://asciinema.org/a/bmLQlWjDrdtrAFzY57UX3hZLB)
