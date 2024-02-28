@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 
-import { getname, greeting } from '../src/cli.js';
+import { greeting } from '../src/cli.js';
 
-console.log('Welcome to the Brain Games!');
-
-const userName = getname();
-
-console.log(greeting(userName));
+export default function brainGamesStart(name) {
+  console.log('Welcome to the Brain Games!');
+  return greeting(name);
+}
