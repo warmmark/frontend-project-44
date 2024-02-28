@@ -1,11 +1,11 @@
 import readlineSync from 'readline-sync';
-import greeting from './index.js';
+import greeting, { randomNum } from './index.js';
 
 export default function isEven() {
   const userName = greeting();
   let correct = 0;
   while (correct < 3) {
-    const random = Math.floor(Math.random() * (100 - 1)) + 1;
+    const random = randomNum();
     console.log(`Question: ${random}`);
     const answer = readlineSync.question('Your answer: ');
     let correctansw = '';

@@ -6,3 +6,7 @@ export default function greeting() {
   console.log(`Hello, ${userName}!`);
   return userName;
 }
+
+export function randomNum() {
+  return Math.floor(Math.random() * (100 - 1)) + 1;
+}
