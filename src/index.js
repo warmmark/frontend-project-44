@@ -15,7 +15,9 @@ export function randomOperand() {
   return randomNum(1, 4);
 }
 
-export function gameLogic(correctansw, userName) {
+export function gameLogic(correctansw, sentence) {
+  const userName = greeting();
+  console.log(sentence);
   let correct = 0;
   while (correct < 3) {
     const answer = readlineSync.question('Your answer: ');

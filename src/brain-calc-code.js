@@ -1,6 +1,6 @@
-import greeting, { gameLogic, randomNum, randomOperand } from './index.js';
+import { gameLogic, randomNum, randomOperand } from './index.js';
 
-function askAndAnswer() {
+function askExpression() {
   const num1 = randomNum();
   const num2 = randomNum();
   const random = randomOperand();
@@ -18,8 +18,7 @@ function askAndAnswer() {
 }
 
 export default function calc() {
-  const userName = greeting();
-  console.log('What is the result of the expression?');
-  const correctansw = askAndAnswer();
-  gameLogic(correctansw, userName);
+  const sentence = 'What is the result of the expression?';
+  const correctansw = askExpression();
+  gameLogic(correctansw, sentence);
 }

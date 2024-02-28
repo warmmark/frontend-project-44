@@ -1,6 +1,6 @@
-import greeting, { gameLogic, randomNum } from './index.js';
+import { gameLogic, randomNum } from './index.js';
 
-function askAndAnswer() {
+function askIfEven() {
   const random = randomNum();
   console.log(`Question: ${random}`);
   let correctansw = '';
@@ -13,8 +13,7 @@ function askAndAnswer() {
 }
 
 export default function isEven() {
-  const userName = greeting();
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
-  const correctansw = askAndAnswer();
-  gameLogic(correctansw, userName);
+  const sentence = 'Answer "yes" if the number is even, otherwise answer "no".';
+  const correctansw = askIfEven();
+  gameLogic(correctansw, sentence);
 }
