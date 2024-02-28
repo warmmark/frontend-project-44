@@ -6,3 +6,6 @@
 
 ### Проверка на чётность
 [![asciicast](https://asciinema.org/a/qPD4SX2E83TpP4UdZDpJ6a2sS.svg)](https://asciinema.org/a/qPD4SX2E83TpP4UdZDpJ6a2sS)
+
+### Калькулятор
+[![asciicast](https://asciinema.org/a/qDzn7PIS1oIRbK8ZCqS7z4uFX.svg)](https://asciinema.org/a/qDzn7PIS1oIRbK8ZCqS7z4uFX)
