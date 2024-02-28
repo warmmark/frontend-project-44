@@ -1,7 +1,7 @@
 import { gameLogic, randomNum } from './index.js';
 
 function generateProgression() {
-  const lengthOfProgression = randomNum(5, 11);
+  const lengthOfProgression = randomNum(5, 10);
   const start = randomNum();
   const difference = randomNum();
   let current = start;
