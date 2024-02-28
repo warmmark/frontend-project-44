@@ -14,3 +14,21 @@ export function randomNum(min = 1, max = 100) {
 export function randomOperand() {
   return randomNum(1, 4);
 }
+
+export function gameLogic(correctansw) {
+  const userName = greeting();
+  console.log('Answer "yes" if the number is even, otherwise answer "no".');
+  let correct = 0;
+  while (correct < 3) {
+    const answer = readlineSync.question('Your answer: ');
+    if (answer === correctansw) {
+      console.log('Correct!');
+      correct += 1;
+    } else {
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctansw}'.`);
+      console.log(`Let's try again, ${userName}!`);
+      return;
+    }
+  }
+  console.log(`Congratulations, ${userName}!`);
+}

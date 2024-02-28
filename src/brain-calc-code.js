@@ -1,5 +1,4 @@
-import readlineSync from 'readline-sync';
-import greeting, { randomNum, randomOperand } from './index.js';
+import { gameLogic, randomNum, randomOperand } from './index.js';
 
 function askAndAnswer() {
   const num1 = randomNum();
@@ -20,19 +19,6 @@ function askAndAnswer() {
 }
 
 export default function calc() {
-  const userName = greeting();
-  let correct = 0;
-  while (correct < 3) {
-    const correctansw = askAndAnswer();
-    const answer = readlineSync.question('Your answer: ');
-    if (answer === correctansw) {
-      console.log('Correct!');
-      correct += 1;
-    } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctansw}'.`);
-      console.log(`Let's try again, ${userName}!`);
-      return;
-    }
-  }
-  console.log(`Congratulations, ${userName}!`);
+  const correctansw = askAndAnswer();
+  gameLogic(correctansw);
 }
